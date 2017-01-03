@@ -1,3 +1,7 @@
+<!-- //Add instructions on how to play our game in readMe// -->
+
+
+
 # Game Time Starter Kit (FE - Module 1)
 
 Basic Game Time starter kit.
