@@ -1,6 +1,0 @@
-function Game() {
-this.ball = new Ball({});
-this.paddle = new Paddle({});
-this.canvas = canvas;
-this.context = context;
-}
