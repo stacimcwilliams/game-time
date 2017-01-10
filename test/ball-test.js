@@ -54,11 +54,11 @@ describe('Ball', function() {
     assert.isFunction(ball.canvasBoundaries);
 });
 
-  it('"canvasBoundaries" should check the if conditionals and return true/false', function() {
-  var ball = new Ball({x: 25, y: 10, canvas: 200});
-  console.log(ball.canvasBoundaries());
-  assert.equal(ball.canvasBoundaries, false);
-  assert.equal(ball.canvasBoundaries, false);
-})
+//   it('"canvasBoundaries" should check the if conditionals and return true/false', function() {
+//   var ball = new Ball({x: 25, y: 10, canvas: 200});
+//   console.log(ball.canvasBoundaries());
+//   assert.equal(ball.canvasBoundaries, false);
+//   assert.equal(ball.canvasBoundaries, false);
+// })
 });
 });
