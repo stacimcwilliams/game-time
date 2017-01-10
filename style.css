@@ -1,6 +1,10 @@
 .game-canvas {
-  border: 1px dashed;
+  border: 1px solid gray;
   margin: auto;
   display: block;
-  background-color: magenta;
+  background-color: white;
+}
+
+body {
+  background-color: black;
 }
