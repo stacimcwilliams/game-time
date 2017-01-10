@@ -2,9 +2,21 @@
   border: 1px solid gray;
   margin: auto;
   display: block;
-  background-color: white;
+  position: relative;
+  background-color: red;
+  visibility: hidden;
 }
 
-body {
-  background-color: black;
+.start-screen{
+  background-color: blue;
+  height: 300px;
+  width: 400px;
+  display: block;
+  position: absolute;
+}
+
+body{
+  background: url("images/breakout-background.jpg") no-repeat;
+  background-size: cover;
+  background-color: white;
 }
