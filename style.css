@@ -1,6 +1,22 @@
 .game-canvas {
-  border: 1px dashed;
+  border: 1px solid gray;
   margin: auto;
   display: block;
-  background-color: magenta;
+  position: relative;
+  background-color: red;
+  visibility: hidden;
+}
+
+.start-screen{
+  background-color: blue;
+  height: 300px;
+  width: 400px;
+  display: block;
+  position: absolute;
+}
+
+body{
+  background: url("images/breakout-background.jpg") no-repeat;
+  background-size: cover;
+  background-color: white;
 }
