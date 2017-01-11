@@ -10,10 +10,17 @@ describe('Tile', function() {
     y:20,
     width: 20,
     height:20,
-  })
+  });
   it('should have a function "tile"', function() {
-    assert.isFunction
+    assert.isFunction(Tile);
+  });
 
-  })
-  })
-})
+  it('should instantiate Tile', function() {
+    assert.isObject(tile);
+  });
+
+  it('should have a method call "buildTile"', function() {
+    assert.isFunction(tile.buildTile);
+  });
+});
+});
