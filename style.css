@@ -13,6 +13,8 @@
   width: 400px;
   display: block;
   position: absolute;
+  margin-left: 500px;
+  text-align: center;
 }
 
 body{
