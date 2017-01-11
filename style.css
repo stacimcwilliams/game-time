@@ -1,36 +1,96 @@
 .game-canvas {
-  border: 1px solid gray;
-  margin: auto;
-  display: block;
-  position: relative;
-  background-color: red;
   visibility: hidden;
+  display: inline-block;
+  margin: auto;
+  border: 3px solid black;
+  background-color: red;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%)
 }
 
-.start-screen{
-  background-color: blue;
+.start-screen  {
+  margin: auto;
   height: 300px;
   width: 400px;
-  display: block;
-  position: absolute;
-  margin-left: 500px;
-  margin-top: 75px;
+  background-color: blue;
+  border: 3px solid black;
   text-align: center;
   font-size: 35px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%)
 }
 
 body{
   background: url("images/breakout-background.jpg") no-repeat;
   background-size: cover;
   font-family: 'Bungee Shade', cursive;
+  height:100vh;
 }
 
-.start-button{
+.game-over {
+  visibility: hidden;
+  position:relative;
+  margin: auto;
+  border: 3px solid black;
+  background-color: blue;
+  top: -2px;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  font-size: 35px;
+  top: 50%;
+  transform: translateY(-260%)
+}
+
+.beat-level {
+  visibility: hidden;
+  position:relative;
+  margin: auto;
+  border: 3px solid black;
+  background-color: blue;
+  top: -2px;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  font-size: 35px;
+  top: 50%;
+  transform: translateY(-359%);
+  animation-timing-function: ease-out;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+button {
   font-size: 25px;
   font-family: 'Bungee Shade', cursive;
   background-color: red;
 }
 
-.level-up{
+.restart-button {
+  margin-top: 40px;
+
+}
+.start-button {
+  margin-top: 100px;
+}
+
+.game-instructions {
+  margin-top: 80px;
+}
+
+.keypad {
+font-size: 20px;
+}
+
+.keypad-instructions {
+  visibility: hidden;
+  text-align: center;
+  margin-top: 200px;
+}
+.level-up {
   visibility: hidden;
 }

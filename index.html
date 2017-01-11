@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Game Time</title>
-  <link href="style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
-</head>
-<body>
-  <section class= "start-screen">
-    <h1>BREAKOUT!</h1>
-    <button class="start-button">Start Game</button>
-  </section>
-  <section class="level-up">
-    <h1>Would you like to level up?</h1>
-    <button class="level-up-button">Level Up</button>
-  </section>
-  <canvas id="game"class="game-canvas" width="400" height="300"></canvas>
-  <script src="main.bundle.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Game Time</title>
+    <link href="https://cdn.jsdelivr.net/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+  </head>
+  <body>
+    <section class= "start-screen">
+      <h1>BREAKOUT!</h1>
+      <button class="start-button">Start Game</button>
+        <section class="game-instructions">
+          <p class="keypad">Click start to continue</p>
+        </section>
+    </section>
+    <canvas id="game"
+    class="game-canvas"
+    width="400"
+    height="300">
+    </canvas>
+    <section class='keypad-instructions'>
+      <p>Press space to move ball. Press left and right arrows to move paddle.</p>
+      <button class="restart-button">Restart</button>
+    </section>
+    <section class="game-over">
+      <h1>You are a loser.</h1>
+      <button class="play-again-button">Play again?</button>
+    </section>
+    <section class="beat-level">
+      <h1>Hot Damn! Time to level up!</h1>
+      <button class="level-up-button">On to the next level!</button>
+    <section>
+    <script src="main.bundle.js"></script>
+  </body>
 </html>
