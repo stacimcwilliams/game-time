@@ -14,11 +14,23 @@
   display: block;
   position: absolute;
   margin-left: 500px;
+  margin-top: 75px;
   text-align: center;
+  font-size: 35px;
 }
 
 body{
   background: url("images/breakout-background.jpg") no-repeat;
   background-size: cover;
-  background-color: white;
+  font-family: 'Bungee Shade', cursive;
+}
+
+.start-button{
+  font-size: 25px;
+  font-family: 'Bungee Shade', cursive;
+  background-color: red;
+}
+
+.level-up{
+  visibility: hidden;
 }
