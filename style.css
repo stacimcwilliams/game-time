@@ -1,3 +1,10 @@
+body{
+  background: url("images/breakout-background.jpg") no-repeat;
+  background-size: cover;
+  font-family: 'Bungee Shade', cursive;
+  height:100vh;
+}
+
 .game-canvas {
   visibility: hidden;
   display: inline-block;
@@ -22,12 +29,6 @@
   transform: translateY(-50%)
 }
 
-body{
-  background: url("images/breakout-background.jpg") no-repeat;
-  background-size: cover;
-  font-family: 'Bungee Shade', cursive;
-  height:100vh;
-}
 
 .game-over {
   visibility: hidden;
@@ -56,8 +57,25 @@ body{
   text-align: center;
   font-size: 35px;
   top: 50%;
-  transform: translateY(-359%);
-  animation-timing-function: ease-out;
+  transform: translateY(-353%);
+  /*animation-timing-function: ease-out;*/
+}
+
+.game-instructions {
+  margin-top: 80px;
+}
+
+.keypad {
+  font-size: 20px;
+}
+
+.keypad-instructions {
+  visibility: hidden;
+  text-align: center;
+  margin-top: 200px;
+}
+.level-up {
+  visibility: hidden;
 }
 
 h1 {
@@ -76,21 +94,4 @@ button {
 }
 .start-button {
   margin-top: 100px;
-}
-
-.game-instructions {
-  margin-top: 80px;
-}
-
-.keypad {
-font-size: 20px;
-}
-
-.keypad-instructions {
-  visibility: hidden;
-  text-align: center;
-  margin-top: 200px;
-}
-.level-up {
-  visibility: hidden;
 }
