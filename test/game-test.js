@@ -9,7 +9,7 @@ const Tile = require('../lib/tile');
 describe('Game', function() {
     context('default', function() {
       var game = new Game({
-        context: {},
+        levelcontext: {},
         canvas: {width:500},
         width: 10,
         height: 10,
@@ -39,8 +39,17 @@ describe('Game', function() {
     assert.isFunction(game.ballTileCollision);
   });
 
-  it('"ballTileCollision" should reverse the directionY', function() {
-    assert.equal(game.y, -10);
-  })
+  it('should have a method called ballPaddleCollision', function() {
+    assert.isFunction(game.ballPaddleCollision);
+  });
+
+  it('should a method called "levelUp"', function () {
+    assert.isFunction(game.levelUp);
+  });
+  //
+  // it.skip('"levelUp() should change directionY on the ball if there are no tiles"', function () {
+  //   var game = New Game({})
+  // });
+
 });
 });
